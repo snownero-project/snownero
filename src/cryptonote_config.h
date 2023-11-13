@@ -224,8 +224,8 @@ namespace config
   uint64_t const CRYPTONOTE_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX = 18;
   uint64_t const CRYPTONOTE_PUBLIC_SUBADDRESS_BASE58_PREFIX = 42;
   uint16_t const P2P_DEFAULT_PORT = 18420;
-  uint16_t const RPC_DEFAULT_PORT = 180421;
-  uint16_t const ZMQ_RPC_DEFAULT_PORT = 180422;
+  uint16_t const RPC_DEFAULT_PORT = 49349;
+  uint16_t const ZMQ_RPC_DEFAULT_PORT = 49350;
   boost::uuids::uuid const NETWORK_ID = { {
       0x18 ,0x12, 0xF1, 0x74 , 0x61, 0x12 , 0x41, 0x61, 0x17, 0x31, 0x08, 0x82, 0x16, 0xA8, 0xA1, 0x19
     } }; // That's Amorte
